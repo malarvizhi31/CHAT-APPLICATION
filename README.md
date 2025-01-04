@@ -106,5 +106,5 @@ OUTPUT:
 ![OP](https://github.com/user-attachments/assets/191d000f-c200-4ac6-929a-bc05a5d01290)
 
 SERVER SIDE:
-
+![op2](https://github.com/user-attachments/assets/c0def764-c710-4815-bc26-18486cb72331)
 

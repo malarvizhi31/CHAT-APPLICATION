@@ -105,5 +105,6 @@ Real-time chat is just one example of how Socket.IO can be used for live communi
 OUTPUT:
 ![OP](https://github.com/user-attachments/assets/191d000f-c200-4ac6-929a-bc05a5d01290)
 
+SERVER SIDE:
 
 

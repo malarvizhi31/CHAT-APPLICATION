@@ -101,6 +101,9 @@ Collaboration Tools: Applications like Trello, Asana, and Microsoft Teams utiliz
 Conclusion
 In this guide, we discussed how to develop a real-time chat application using Socket.IO. We outlined how real-time messaging works and how to implement it by setting up both a backend server and a frontend interface. By leveraging the power of WebSockets through Socket.IO, you can build applications that allow instant communication, providing a seamless experience for users.
 
+OUTPUT:
+![OP](https://github.com/user-attachments/assets/191d000f-c200-4ac6-929a-bc05a5d01290)
+
 Real-time chat is just one example of how Socket.IO can be used for live communication, and the technology can be extended for various other use cases, including collaborative platforms, notifications, and live data feeds.
 
 

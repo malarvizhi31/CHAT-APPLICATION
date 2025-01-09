@@ -14,12 +14,12 @@
 
 A real-time chat application enables instant communication between users through messages sent in real-time. This system consists of two main components:
 
-Frontend (Client-Side): The interface users interact with, typically a web browser.
-Backend (Server-Side): The server that manages communication, message routing, and any additional features (e.g., user authentication, message history, etc.).
+***Frontend (Client-Side)***: The interface users interact with, typically a web browser.
+***Backend (Server-Side)***: The server that manages communication, message routing, and any additional features (e.g., user authentication, message history, etc.).
 The Socket.IO library allows the client and server to communicate over WebSockets, offering an easy-to-implement real-time messaging system that works in many environments and browsers.
 
-Key Components of the Chat Application
-User Interface (Frontend):
+***Key Components of the Chat Application***
+***User Interface (Frontend):***
 
 A basic chat interface where users can type and send messages.
 A message area where incoming and outgoing messages will appear.
@@ -61,7 +61,7 @@ Create the Server: Set up an HTTP server using Express, and initialize Socket.IO
 Handle Client Connections: When a client connects to the server, establish a WebSocket connection using Socket.IO. Every time a user joins or sends a message, the server will listen for events and broadcast the appropriate message to all other users.
 Handle Disconnections: Manage situations when users leave the chat by listening for disconnection events and broadcasting a "user has left" message to others.
 
-SETUP THE FRONTEND
+***SETUP THE FRONTEND***
 The frontend of the chat application will be responsible for rendering the user interface, allowing users to send and receive messages. The key steps here include:
 
 Create the HTML Layout: Design the basic structure of the chat application, including an input field for the user to type messages, a submit button, and a list to display messages.
@@ -70,14 +70,14 @@ Integrate Socket.IO Client: On the client side, use the Socket.IO client library
 Handle Incoming Messages: When the server sends a message, the client will display it in the message list.
 Send Messages: The client will listen for a form submission (when the user types a message and presses send), and then emit a message event to the server using Socket.IO.
 
-ENABLE REAL-TIME MESSAGING
+***ENABLE REAL-TIME MESSAGING***
 With both the frontend and backend set up, you can implement the core feature: real-time messaging.
 
 Emit Messages: When a user sends a message from the frontend, the client emits a chat message event to the server.
 Broadcast Messages: When the server receives the message, it uses Socket.IO to broadcast that message to all connected clients.
 Handle User Join/Leave Notifications: Use the socket.broadcast.emit function on the server to notify all clients when a user joins or leaves the chat room.
 
- ADDITIONAL FEATURES
+***ADDITIONAL FEATURES***
 You can expand the functionality of the chat app with additional features, including:
 
 Private Messaging: Allow users to send direct messages to one another instead of broadcasting to everyone.
